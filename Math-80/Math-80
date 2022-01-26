@@ -1,0 +1,36 @@
+From 46a9e61d35aa5af6010d54a206c9c159379417d1 Mon Sep 17 00:00:00 2001
+From: defects4j <defects4j@localhost>
+Date: Mon, 24 Jan 2022 14:53:46 +0100
+Subject: [PATCH] Java 11
+
+---
+ pom.xml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+diff --git a/pom.xml b/pom.xml
+index dd4d0ad49..5260ef089 100644
+--- a/pom.xml
++++ b/pom.xml
+@@ -225,8 +225,8 @@
+     <commons.binary.suffix></commons.binary.suffix>
+     <commons.jira.id>MATH</commons.jira.id>
+     <commons.jira.pid>12310485</commons.jira.pid>
+-    <maven.compile.source>1.5</maven.compile.source>
+-    <maven.compile.target>1.5</maven.compile.target>
++    <maven.compile.source>1.7</maven.compile.source>
++    <maven.compile.target>1.7</maven.compile.target>
+     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+   </properties> 
+@@ -334,7 +334,7 @@
+             <ruleset>checkstyle.xml</ruleset>
+           </rulesets>
+           <linkXref>true</linkXref>
+-          <targetJdk>1.5</targetJdk>
++          <targetJdk>1.7</targetJdk>
+         </configuration>
+       </plugin>
+       <plugin>
+-- 
+2.30.2
+
